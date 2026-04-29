@@ -669,8 +669,9 @@ function Footer({ onApply }: { onApply: () => void }) {
           </div>
         </div>
 
-        <div className="pt-6 border-t border-white/10 text-xs text-white/60 text-center">
-          © 2026 DhanVarsha. All rights reserved. | Lending facilitated by RBI-registered NBFC partners.
+        <div className="pt-6 border-t border-white/10 text-xs text-white/60 text-center space-y-1">
+          <div>DhanVarsha is a brand owned and operated by <span className="text-white/80 font-medium">QuantumX Global Private Limited</span>.</div>
+          <div>© 2026 QuantumX Global Private Limited. All rights reserved. | Lending facilitated by RBI-registered NBFC partners.</div>
         </div>
       </div>
     </footer>
