@@ -670,7 +670,7 @@ function Footer({ onApply }: { onApply: () => void }) {
         </div>
 
         <div className="pt-6 border-t border-white/10 text-xs text-white/60 text-center">
-          © 2026 AsaanLoan. All rights reserved. | Powered by QuantumX Global Private Limited.
+          © 2026 AsaanLoan. All rights reserved. | Powered by WeCredit — wecredit.co.in
         </div>
       </div>
     </footer>
