@@ -4,13 +4,13 @@ import { useEffect, useState, useMemo } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "DhanVarsha — Instant Personal Loans up to ₹2 Lakhs" },
+      { title: "AsaanLoan — Instant Personal Loans up to ₹2 Lakhs" },
       {
         name: "description",
         content:
-          "Get an instant personal loan up to ₹2 Lakhs with DhanVarsha. 100% digital, no hidden charges, money in 24 hours.",
+          "Get an instant personal loan up to ₹2 Lakhs with AsaanLoan. 100% digital, no hidden charges, money in 24 hours.",
       },
-      { property: "og:title", content: "DhanVarsha — Instant Personal Loans" },
+      { property: "og:title", content: "AsaanLoan — Instant Personal Loans" },
       {
         property: "og:description",
         content: "Quick approval, secure process, instant disbursal.",
@@ -148,7 +148,7 @@ function Navbar({ onApply }: { onApply: () => void }) {
       <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-1.5 font-extrabold text-xl text-primary">
           <span className="text-gold text-2xl leading-none">₹</span>
-          <span>DhanVarsha</span>
+          <span>AsaanLoan</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -366,7 +366,7 @@ function Features() {
     <section id="features" className="py-20 md:py-28 px-5 sm:px-8 bg-primary-soft">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-primary">Why DhanVarsha?</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-primary">Why AsaanLoan?</h2>
           <p className="mt-3 text-muted-foreground text-lg">
             Built for speed, transparency, and your convenience.
           </p>
@@ -500,17 +500,17 @@ function Eligibility() {
 function Testimonials() {
   const items = [
     {
-      q: "Getting a loan used to feel so complicated. DhanVarsha made it incredibly simple — I had the money in my account within a day. Highly recommended.",
+      q: "Getting a loan used to feel so complicated. AsaanLoan made it incredibly simple — I had the money in my account within a day. Highly recommended.",
       n: "Priya Sharma",
       r: "Salaried Professional, Delhi",
     },
     {
-      q: "I needed funds urgently for a medical emergency. DhanVarsha came through faster than I expected. The process was fully digital and completely transparent.",
+      q: "I needed funds urgently for a medical emergency. AsaanLoan came through faster than I expected. The process was fully digital and completely transparent.",
       n: "Rohit Verma",
       r: "Business Owner, Mumbai",
     },
     {
-      q: "No hidden charges, no confusing terms. Just a clean, fast loan process. I've already referred three of my friends to DhanVarsha.",
+      q: "No hidden charges, no confusing terms. Just a clean, fast loan process. I've already referred three of my friends to AsaanLoan.",
       n: "Anita Desai",
       r: "Freelancer, Bengaluru",
     },
@@ -550,7 +550,7 @@ function FAQ() {
     { q: "How long does it take to get the money?", a: "Once your documents are verified and loan is approved, funds are disbursed within 24 hours directly to your bank account." },
     { q: "What documents do I need to apply?", a: "You need your PAN card, Aadhaar card, last 3 months bank statement, and latest salary slips or income proof." },
     { q: "Is there any processing fee?", a: "A minimal processing fee is applicable and will be clearly communicated upfront. There are absolutely no hidden charges." },
-    { q: "Can I repay my loan early?", a: "Yes, DhanVarsha allows foreclosure after a minimum lock-in period. Applicable charges will be disclosed before you apply." },
+    { q: "Can I repay my loan early?", a: "Yes, AsaanLoan allows foreclosure after a minimum lock-in period. Applicable charges will be disclosed before you apply." },
   ];
   return (
     <section id="faqs" className="py-20 md:py-28 px-5 sm:px-8">
@@ -626,7 +626,7 @@ function Footer({ onApply }: { onApply: () => void }) {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 pb-8 border-b border-white/10">
           <a href="#top" className="flex items-center gap-1.5 font-extrabold text-2xl">
             <span className="text-gold text-2xl">₹</span>
-            <span>DhanVarsha</span>
+            <span>AsaanLoan</span>
           </a>
           <div className="flex flex-wrap gap-6 text-sm text-white/80">
             <a href="#how" className="hover:text-white transition">How It Works</a>
@@ -644,9 +644,9 @@ function Footer({ onApply }: { onApply: () => void }) {
 
         <div className="grid md:grid-cols-3 gap-8 py-10">
           <div>
-            <h4 className="font-bold mb-3">About DhanVarsha</h4>
+            <h4 className="font-bold mb-3">About AsaanLoan</h4>
             <p className="text-sm text-white/70 leading-relaxed">
-              DhanVarsha is a digital personal loan platform offering quick, transparent, and accessible loans to individuals across India.
+              AsaanLoan is a digital personal loan platform offering quick, transparent, and accessible loans to individuals across India.
             </p>
           </div>
           <div>
@@ -662,7 +662,7 @@ function Footer({ onApply }: { onApply: () => void }) {
           <div>
             <h4 className="font-bold mb-3">Contact</h4>
             <ul className="space-y-2 text-sm text-white/70">
-              <li>support@dhanvarsha.in</li>
+              <li>support@asaanloan.com</li>
               <li>+91 98765 43210</li>
               <li>Mon–Sat, 9 AM to 6 PM</li>
             </ul>
@@ -670,7 +670,7 @@ function Footer({ onApply }: { onApply: () => void }) {
         </div>
 
         <div className="pt-6 border-t border-white/10 text-xs text-white/60 text-center">
-          © 2026 DhanVarsha. All rights reserved. | Powered by QuantumX Global Private Limited.
+          © 2026 AsaanLoan. All rights reserved. | Powered by QuantumX Global Private Limited.
         </div>
       </div>
     </footer>
