@@ -1,24 +1,25 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, useMemo } from "react";
+import { Helmet } from "react-helmet-async";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "AsaanLoan — Instant Personal Loans up to ₹2 Lakhs" },
-      {
-        name: "description",
-        content:
-          "Get an instant personal loan up to ₹2 Lakhs with AsaanLoan. 100% digital, no hidden charges, money in 24 hours.",
-      },
-      { property: "og:title", content: "AsaanLoan — Instant Personal Loans" },
-      {
-        property: "og:description",
-        content: "Quick approval, secure process, instant disbursal.",
-      },
-    ],
-  }),
-  component: LandingPage,
-});
+export default function Index() {
+  return (
+    <>
+      <Helmet>
+        <title>AsaanLoan — Instant Personal Loans up to ₹2 Lakhs</title>
+        <meta
+          name="description"
+          content="Get an instant personal loan up to ₹2 Lakhs with AsaanLoan. 100% digital, no hidden charges, money in 24 hours."
+        />
+        <meta property="og:title" content="AsaanLoan — Instant Personal Loans" />
+        <meta
+          property="og:description"
+          content="Quick approval, secure process, instant disbursal."
+        />
+      </Helmet>
+      <LandingPage />
+    </>
+  );
+}
 
 /* ---------------- Apply Modal ---------------- */
 function ApplyModal({ open, onClose }: { open: boolean; onClose: () => void }) {
